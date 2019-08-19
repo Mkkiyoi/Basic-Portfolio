@@ -14,41 +14,65 @@ h1 {
     color: #4aaaa5;
 }
 
-.header {
+.header-container {
     background: #ffffff;
     border-bottom: 2px solid #cccccc;
     height: 60px;
     width: 100%;
-    margin-bottom: 20px;
     position: fixed;
+    top: 0;
 }
 
-.header h1 {
-    color: #ffffff;
+.header {
+    width: 960px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.logo {
     background: #4aaaa5;
     float: left;
+    height: 60px;
+    width: 300px;
+    margin: 0;
+    text-align: center;
+}
+
+.logo h1 {
+    color: #ffffff;
+    margin: 12px 0;
 }
 
 .header nav {
-    float: left;
+    float: right;
+    margin: 21px 0;
 }
 
 .header nav a {
     text-decoration: none;
     color: #777777;
+    margin: 8px;
 }
 
 .footer{
     background: #666666;
     height: 60px;
     width: 100%;
-    position: 
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    color: #cccccc;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer p {
+    margin-top: 35px;
 }
 
 .main-content {
-    width: 960px;
+    width: 918px;
     background: #ffffff;
     border: 1px solid#dddddd;
-    margin: 0 auto;
+    margin: 90px auto;
     padding: 20px;
 }
