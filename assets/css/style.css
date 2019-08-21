@@ -124,6 +124,13 @@ hr {
     margin: 25px 0;
 }
 
+/* ------------------------- Begin portfolio.html CSS -------------------------  */
+
+#portfolio {
+    position: relative;
+    overflow: auto;
+}
+
 .portfolio-content {
     /* Positioning */
     position: relative;
@@ -146,8 +153,8 @@ hr {
     background: #4aaaa5;
 
     /* Positioning */
-    bottom: 5px;
     position: absolute;
+    bottom: 5px;
 }
 
 .portfolio-content div p {
@@ -167,3 +174,12 @@ hr {
     float: left;
     clear:left;
 }
+
+#rpg-text, #widget-text {
+    left: 205px;
+}
+
+
+/* ------------------------- Begin contact.html CSS -------------------------  */
+
+
