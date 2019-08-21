@@ -112,6 +112,7 @@ h1 {
     /* Visual */
     width: 918px;
     background: #ffffff;
+    overflow: auto;
 
     /* Box Model */
     border: 1px solid#dddddd;
@@ -128,7 +129,6 @@ hr {
 
 #portfolio {
     position: relative;
-    overflow: auto;
 }
 
 .portfolio-content {
