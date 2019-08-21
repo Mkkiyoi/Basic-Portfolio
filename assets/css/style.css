@@ -182,4 +182,18 @@ hr {
 
 /* ------------------------- Begin contact.html CSS -------------------------  */
 
+form p {
+    margin: 5px 0;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid#dddddd;
+}
+
+#message {
+    height: 150px;
+}
 
