@@ -1,3 +1,5 @@
+/* CSS for index.html, contact.css, portfolio.html */
+
 #profile-pic {
     float:left;
 }
@@ -124,91 +126,3 @@ hr {
     /* Box Model */
     margin: 25px 0;
 }
-
-/* ------------------------- Begin portfolio.html CSS -------------------------  */
-
-#portfolio {
-    position: relative;
-}
-
-.portfolio-content {
-    /* Positioning */
-    position: relative;
-
-    /* Box Model */
-    margin: 0 30px 30px 0;
-}
-
-.portfolio-content img {
-    /* Visual */
-    height: 127px;
-    width: 175px;
-    display: block;
-}
-
-.portfolio-content div {
-    /* Visual */
-    width: 175px;
-    height: 35px;
-    background: #4aaaa5;
-
-    /* Positioning */
-    position: absolute;
-    bottom: 5px;
-}
-
-.portfolio-content div p {
-
-    /* Box Model */
-    margin: 10px 0;
-
-    /* Typography */
-    text-align: center;
-
-    /* Visual */
-    color: #ffffff;
-}
-
-#portfolio div:nth-child(odd) {
-    /* Positioning */
-    float: left;
-    clear:left;
-}
-
-#rpg-text, #widget-text {
-    left: 205px;
-}
-
-
-/* ------------------------- Begin contact.html CSS -------------------------  */
-
-form p {
-    /* Box Model */
-    margin: 5px 0;
-}
-
-input, #message {
-    /* Visual */
-    width: 908px;
-
-    /* Box Model */
-    margin-bottom: 10px;
-    padding: 5px;
-    border: 1px solid#dddddd;
-}
-
-#message {
-    /* Visual */
-    height: 150px;
-}
-
-#submit {
-    /* Visual */
-    background: #4aaaa5;
-    width: 75px;
-    height: 30px;
-    
-    /* Typography */
-    color: #ffffff;
-}  
-
