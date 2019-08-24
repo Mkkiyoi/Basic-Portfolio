@@ -12,6 +12,9 @@ body {
     /* Typography */
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 
+}
+
+body, .logo {
     /* Box Model */
     margin: 0;
 }
@@ -26,7 +29,6 @@ h1 {
 
 .header-container {
     /* Visual */
-    background: #ffffff;
     height: 60px;
     width: 100%;
 
@@ -55,10 +57,10 @@ h1 {
 
     /* Positioning */
     float: left;
-    
+}
 
+.logo, .footer {
     /* Box Model */
-    margin: 0;
     text-align: center;
 }
 
@@ -97,7 +99,6 @@ h1 {
     border-top: 8px solid #4aaaa5;
 
     /* Typography */
-    text-align: center;
     color: #cccccc;
 
     /* Positioning */
@@ -113,13 +114,20 @@ h1 {
 .main-content {
     /* Visual */
     width: 918px;
-    background: #ffffff;
     overflow: auto;
 
     /* Box Model */
     border: 1px solid#dddddd;
     margin: 90px auto;
     padding: 20px;
+}
+
+.main-content p {
+    line-height: 30px;
+}
+
+.header-container, .main-content {
+    background: #ffffff;
 }
 
 hr {
@@ -130,4 +138,5 @@ hr {
 img {
     height: 160px;
     width: 240px;
+    margin-right: 20px;
 }
