@@ -126,3 +126,8 @@ hr {
     /* Box Model */
     margin: 25px 0;
 }
+
+img {
+    height: 160px;
+    width: 240px;
+}
